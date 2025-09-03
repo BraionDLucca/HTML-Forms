@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>GET</legend>
+
+            <span>Nome do usuário:</span>
+            <input type="text" required="true"> <br> <br>
+            
+            <span>Email:</span>
+            <input type="email" required="true"> <br> <br>
+
+            <span>Senha:</span>
+            <input type="password" required="true" minlength="8"> <br> <br>
+
+            <span>Telefone:</span>
+            <input type="text" required="true" pattern="[0-9]{7}-[0-9]{4}"> <br> <br>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
